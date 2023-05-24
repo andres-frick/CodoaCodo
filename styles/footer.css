@@ -1,0 +1,28 @@
+footer {
+    background-color: rgb(173, 185, 185);
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+}
+
+footer .titulo-footer,
+footer .copy {
+    color: black;
+    text-align: center;
+}
+
+.red-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-social a {
+    font-size: 30px;
+    margin: 10px 20px 20px;
+    color: black;
+}
+
+.red-social a:hover {
+    color: #502bb6;
+}

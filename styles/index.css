@@ -1,0 +1,76 @@
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("./img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero p {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+#hero h1 {
+    color: white;
+    font-size: 3.5em;
+    margin-bottom: 0;
+}
+#hero button{
+    background-color: #502bb6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#hero button:hover{
+    background-color: #3c1f8c;
+}
+
+#caracteristicas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#caracteristicas img {
+    width: 50%;
+}
+
+#caracteristicas ol {
+    font-size: 2em;
+    margin-bottom: 0;
+    line-height: 70px;
+}
+
+@media (max-width: 856px) {
+    #caracteristicas {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #caracteristicas img {
+        width: 60%;
+    }
+
+    #caracteristicas ol {
+        font-size: 1.3em;
+        margin-bottom: 0;
+        line-height: 50px;
+    }
+}

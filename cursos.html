@@ -38,7 +38,7 @@
         <div class="container" id="cursos">
             <script>
                 const cursos = document.getElementById('cursos');
-                fetch('http://distrooper.com:4000/cursos')
+                fetch('https://api.distrooper.com/cursos')
                     .then(res => res.json())
                     .then(data => {
                         cursos.innerHTML = '';
